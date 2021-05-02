@@ -1,0 +1,61 @@
+body {
+    background-color: rgb(215, 248, 233);
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    font-family: 'Krona One', sans-serif;
+    text-align: center;
+}
+
+
+header, footer {
+    background-color: darkorange;
+    font-family: 'Krona One', sans-serif;
+    color: black;
+    padding: 8px;
+    border-radius: 15px;
+    clear: both;
+    text-align: center;
+    
+}
+
+p.firstexpl {
+    background-color: rgb(255, 183, 95);
+    text-align: center;
+
+}
+
+
+p.secondexpl {
+    background-color: rgba(255, 140, 0, 0.815);
+    text-align: center;
+
+}
+
+p.thirdexpl {
+    background-color: darkorange;
+    text-align: center;
+
+}
+
+footer p.legal {
+    margin-bottom: 9px;
+    font-size:.9em;
+}
+
+footer a, footer a:link, footer a:visited, footer a:hover, footer a:active, footer a:focus {
+    color: rgb(251, 255, 0);
+} 
+
+footer a:hover {
+    color: rgba(255, 255, 0, 0.829);
+}
+
+
+footer p.highlight {
+    color: yellow;
+    font-size:.8em;
+    margin-top: 0;
+}
