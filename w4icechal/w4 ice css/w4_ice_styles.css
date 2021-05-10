@@ -1,0 +1,32 @@
+body { 
+    font-family: 'Roboto', sans-serif;
+    max-width: 75%;
+    margin: auto;
+}
+
+.header { 
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: auto 1fr;
+}
+
+.customer{
+    text-align: right;
+}
+
+
+.banner {
+    display: grid;
+    background-color: #001B36;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 4fr 1fr;
+    color: white;
+}
+    
+.middle {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+
