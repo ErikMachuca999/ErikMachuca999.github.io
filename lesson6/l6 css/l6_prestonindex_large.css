@@ -1,0 +1,53 @@
+@media only screen and (min-width:63.5em) {
+    body {
+    background-color: rgb(28, 221, 2);
+    }
+    nav {
+        display: flex;
+        max-width: 100%;
+    }
+
+    .content-box {
+        display: block;
+        width: 80%;
+        margin: 10px auto;
+        padding: 15px;
+        background-color: rgb(62, 223, 62);
+        color: black;
+    }
+
+    #inner-grid{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+
+    .hero-image{
+        width: 760px;
+        height: 300px;
+    }
+    .overlay-text{
+        width: 120px;
+        right: 74%;
+        padding: 10px;
+        height: 145px;
+        opacity: 0.8;
+        bottom: 10%;
+        background-color: rgb(111, 236, 73);
+        grid-column: 1;
+        grid-row: 2;
+        z-index: 12;
+}
+
+    .article-pic {
+        float: right;
+        width: 250px;
+        height: 250px;
+    }
+    .article-title {
+        float: left;
+    }
+    .article-text {
+        width: 75%;
+        text-align: left;
+    }
+};
