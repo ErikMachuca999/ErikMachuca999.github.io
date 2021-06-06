@@ -1,0 +1,28 @@
+@media only screen and (min-width:32.5em) {
+    body {
+    background-color: rgba(43, 247, 60, 0.904);
+    }
+    nav {
+        display: flex;
+        max-width: 100%;
+    }
+    .content-box-1 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-gap: 1.5em;
+        width: 85%;
+        margin: 10px auto;
+        padding: 25px;
+        background-color: rgb(62, 223, 62);
+        color: black;
+    }
+
+    .pic img {
+        width: 300px;
+        height: 200px;
+    }
+
+    .norm:hover {
+        box-shadow: 0 0 50px #333;
+    }
