@@ -1,0 +1,29 @@
+@media only screen and (min-width:63.5em) {
+    body {
+    background-color: rgb(28, 221, 2);
+    }
+    nav {
+        display: flex;
+        max-width: 100%;
+    }
+
+    .content-box-1 {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        grid-gap: 1.5em;
+        width: 85%;
+        margin: 10px auto;
+        padding: 25px;
+        background-color: rgb(62, 223, 62);
+        color: black;
+    }
+
+
+    /* #inner-grid {
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    } */
+
+
+};
