@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href="L8 css/normalize.css">
+    <link rel="stylesheet" href="L8 css/l8_stylesheetsmall.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nova+Flat&display=swap" rel="stylesheet">
+    <!-- <script src="l7 script/l7_script.js"></script> -->
+    <title>WIPWeb.tech-"Weather in Preston" web page</title>
+</head>
+<body>
+    <header>
+        <img src="L8_images/weather_logo.jpg" alt="WIPweb Logo">
+        <section id="headings">
+            <h1>WIPWeb.Tech</h1>
+            <div id="motto">Vault-Tec Engineered, Picture perfect Clear!</div>
+        </section>
+    </header>
+    <nav>
+        <ul id="navigation">
+            <li><a class="ham" href="#">&#9776; Menu</a></li>
+            <li><a href="">Index</a></li>
+            <li><a href=""">Preston</a></li>
+            <li><a href="">Soda Springs</a></li>
+            <li><a href="">Fish Haven</a></li>
+            <li><a class="active" href="stormcenter.html">Storm Center</a></li>
+            <li><a href=""">Gallery Database</a></li>
+        </ul>
+    </nav>
+        <main>
+            <h2>Storm Report Center</h2>
+            <div id="content">
+                <div class="content-box-1">
+                        <br>
+                        <form action="thank_you.html">
+                            <h2>Personal Information</h2>
+                            <label for="name">Full Name<span class="required">*</span></label>
+                            <input type="text" name="name" id="name" pattern="[A-Za-z\s]{5,}[A-Za-z]" placeholder="Full name..." required>
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email" placeholder="example@example.com">
+                            <label for="phone">Phone<span class="required">*</span></label>
+                            <input type="tel" name="phone" id="phone" placeholder="999-999-9999" required>
+                            <label for="zip">Zip<span class="required">*</span></label>
+                            <input type="number" name="zip" id="zip" required>
+                        <br>
+                    
+                            <h2>Storm Information</h2>
+                            <label for="storm-date">Storm Date</label>
+                            <input type="date" name="storm-date" id="storm-date">
+                            <label for="storm-type">Storm Type</label>
+                            <input list="storm-types" name="storm-type" id="storm-type">
+                            <label for="storm-severity">Storm severity (1-10)</label>
+                            <input type="range" name="storm-severity" id="storm-severity" min="1" max="10">
+                            <datalist id="storm-types">
+                                <option value="Flash Flood">
+                                <option value="Hail">
+                                <option value="Hurricane">
+                                <option value="Thunderstorm">
+                                <option value="Tornado">
+                            </datalist>
+                            <label for="storm-region">Storm region</label>
+                            <select name="storm-region" id="storm-region">
+                                <option value="0" disabled>Select Region...</option>
+                                <option value="preston">Preston</option>
+                                <option value="soda-springs">Soda Springs</option>
+                                <option value="fish-haven">Fish Haven</option>
+                            </select>
+                            <p>User in danger?</p>
+                            <section>
+                                <div class="radio">
+                                    <input type="radio" name="in-danger" id="yes" value="yes">
+                                    <label for="yes" id="radio-label"> Yes</label>
+                                </div>
+                                <div class="radio">
+                                    <input type="radio" name="in-danger" id="maybe" value="maybe">
+                                    <label for="maybe" id="radio-label">Maybe</label>
+                                </div>
+                                <div class="radio">
+                                    <input type="radio" name="in-danger" id="no" value="no">
+                                    <label for="no" id="radio-label">No</label>
+                                </div>
+                            </section>
+                            <label for="comments">Additional info </label>
+                            <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+                            <input name="submit" id="submit" type="submit" value="Send Form" class="submit-btn">
+                        </form>
+                </div>   
+
+            </div>
+        </main>
+        <footer>
+            <div class="content-box">
+                <div id="contact-info">
+                    <h3>Contact Information</h3>
+                                <p>Address: TES-04 Cir. Preston ID 83263</p>
+                                <p>Email: pipbox@bethesdaruins.net</p>
+                                <p>Phone: (555) 101- 0111</p>
+                    <p class='legal'>&copy; <span id='copyrightyear'></span>| Erik Machuca Saez | Texas | <a href='https:www.byui.edu/online'>BYUI Online Learning</a></p>
+                    <p class='highlight'>Last Updated: <span id='lastupdated'></span></p>
+                </div>
+            </div>   
+       </footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
