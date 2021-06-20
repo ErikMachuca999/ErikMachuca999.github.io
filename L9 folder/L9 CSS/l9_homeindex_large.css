@@ -1,0 +1,54 @@
+@media only screen and (min-width:63.5em) {
+    body {
+    background-color: rgb(28, 221, 2);
+    }
+    nav {
+        display: flex;
+        max-width: 100%;
+    }
+
+    .content-box {
+        display: block;
+        width: 80%;
+        margin: 10px auto;
+        padding: 15px;
+        background-color: rgb(62, 223, 62);
+        color: black;
+    }
+
+
+
+    
+    .towns {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 30px;
+        text-align: center;
+    }
+    .towns img{
+        width: 80%;
+    }
+    .towns article {
+        display: block;
+        width: 70%;
+        padding: 30px;
+        background-color: rgb(53, 235, 53);
+        color: black;
+        margin: auto;
+    }
+    
+    .towns article img {
+        max-width: 100%;
+        padding: 10px;
+    }
+    
+    .main-sec {
+        display: flex;
+        flex-direction: column;
+        max-width: 1040px;
+        margin: auto;
+        align-items: center;
+        text-align: center;
+    }
+    
+};
