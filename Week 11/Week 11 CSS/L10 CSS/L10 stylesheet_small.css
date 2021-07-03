@@ -1,0 +1,156 @@
+body {
+    background-color: rgb(28, 238, 133);
+}
+
+header {
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+header img {
+    display: flex;
+    width: 95px;
+    height: auto;
+
+}
+
+#headings {
+    display: flex;
+    flex-direction: column;
+}
+
+
+#motto {
+    font-style: italic;
+    letter-spacing: 1pt;
+    color: black;
+    margin: 15px;
+    font-size: 1.5rem;
+}
+
+.content-box {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    padding: 15px;
+    background-color: rgb(62, 223, 62);
+    color: black;
+}
+
+.hero-image img{
+    margin: auto;
+    width: 250px;
+    height: 250px;
+}
+
+
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    font-family: 'Nova Flat', cursive;
+    text-align: center;
+}
+
+logo {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+
+}
+nav {
+    display: flex;
+    width: 85%;
+    margin: 0 auto;
+    background-color: #10f141;
+}
+
+#navigation {
+    list-style: none;
+    padding: 0;
+    grid-template-columns: auto;
+    display: grid;
+}
+
+#navigation li:first-child {
+    display: block;
+}
+
+#navigation li {
+    display: none;
+}
+
+#navigation a {
+    display: block;
+    padding: 0.75rem;
+    text-align: left;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
+#navigation a:hover, #navigation a.active:hover {
+    color: white;
+    background-color: rgb(38, 146, 61);
+   
+}
+
+#navigation a.active {
+    background-color: rgba(0,0,0, .55);
+    color: white;
+     /* border-bottom: 5px solid black;*/
+}
+
+#navigation.responsive li {
+    display: block;
+}
+
+footer {
+    text-align: center;
+    padding: 8px;
+    color: black;
+
+}
+
+
+@media only screen and (min-width: 34.5em) {
+    nav {
+        display: flex;
+        max-width: 100%;
+    }
+    #navigation {
+        grid-template-columns: repeat(7,auto);
+    }
+    #navigation li {
+        display: block; /* change state in small view */
+    }
+    #navigation a {
+        text-align: center;
+    }
+    #navigation li:first-child {
+        display: none;
+    }
+
+    .overlay-text{
+        position: absolute;
+        width: 115px;
+        right: 81%;
+        height: 130px;
+        bottom: 18%;
+        background-color: rgb(111, 236, 73);
+        grid-column: 1;
+        grid-row: 2;
+        z-index: 12;
+    }
+}
+
+@media only screen and (min-width: 54.5em) {
+    #navigation {
+        width:800px;
+        margin: 16px auto;
+    }
+}
