@@ -20,12 +20,14 @@
     
     .towns {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+        /*change 1 temp-col(s) to just 1 fr and comment out display:flex*/
+        /*and move the image within the nth child specs*/
         grid-gap: 30px;
         text-align: center;
         margin: .5rem auto;
-        display: flex;
-        flex-wrap: wrap;
+        /* display: flex; */
+        /* flex-wrap: wrap; */
     }
 
     .towns article {
