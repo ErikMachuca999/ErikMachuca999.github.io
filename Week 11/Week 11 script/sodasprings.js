@@ -50,7 +50,7 @@ window.addEventListener("load",() => {
 });
 
 
-const forcasturl = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&appid=89cee548a3df9c3f2b4ab9c1480baa99";
+const forcasturl = "https://api.openweathermap.org/data/2.5/forecast?id=5607916&units=imperial&appid=89cee548a3df9c3f2b4ab9c1480baa99";
 
 fetch(forcasturl)
     .then((response) => response.json())
@@ -131,5 +131,4 @@ window.addEventListener("load",() => {
     // window.onresize = () => {if(window.innerWidth > 760) mainnav.classList.remove("responsive")};
   
   });
-
   
