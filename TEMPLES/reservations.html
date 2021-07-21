@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="TEMPLES CSS/temple reservation CSS/normalize.css">
+    <link rel="stylesheet" href="TEMPLES CSS/temple reservation CSS/reserve_small.css">
+    <link rel="stylesheet" href="TEMPLES CSS/temple reservation CSS/reserve_medium.css">
+    <link rel="stylesheet" href="TEMPLES CSS/temple reservation CSS/reserve_large.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Uchen&display=swap" rel="stylesheet">
+    <title>Temple Pip-Planner</title>
+    <script src="TEMPLES script/temple_index_script.js"></script>
+</head>
+<body>
+    <header>
+        <img src="TEMPLES images/logo.png" alt="WIPweb Logo">
+        <section id="headings">
+            <h1>Temple Pip-Planner</h1>
+            <div id="motto">Vault-Tec Planned, to think like The Man!</div>
+        </section>
+    </header>
+    <nav>
+        <ul id="navigation">
+            <li><a class="ham" href="#">&#9776; Menu</a></li>
+            <li><a href="Temple_index.html">Home</a></li>
+            <li><a href="temples_page.html">Temples</a></li>
+            <li><a class ="active" href="reservations.html">Reservations</a></li>
+            <li><a href="hotels_page.html">Hotels</a></li>
+            <li class="dropdown"><a href="#">Services</a>
+                <div class="dropdown-content">
+                    <a href="receptions.html">Receptions</a>
+                    <a href="temple_missionaries.html">Temple Missionaries</a>
+                </div>
+            </li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+<main>
+    <h1>Reservation</h1>
+    <div class="content-box">
+    <form action="thank_you.html" method="get" class="form">
+        <fieldset>
+            <legend>Contact Information</legend>
+            <label class="top">First Name*<input type="text" name="fname" minlength="5" required ></label>
+            <label class="top">Last Name*<input type="text" name="lname" minlength="5" required ></label>
+            <label class="top">Email<input type="email" name="email" placeholder="example@emailpovider.com"></label>
+            <label class="top">Phone number*<input type="tel" name="pnumber" required></label>
+            <label class="top">Home State*<input type="text" name="zcode" required></label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Reservation Information</legend>
+            <label class="sbs">Reservation date <input type="date" name="sdate"></label>
+            <label class="top">Service/Room type<input list="storm-type" name="stype">
+            </label>
+            <label class="sbs">Number of people/Rooms Needed (1-10) <input type="range(1 to 10)" name="sseverity"></label>
+            <label class="top">
+                <select name="sregion" onchange="selectResponse()">
+                    <option value="" disabled selected>Select Location ...</option>
+                    <option value="Houston">Houston TX</option>
+                    <option value="Jordan River">Jordan River UT</option>
+                    <option value="Manhattan">Manhattan NY</option>
+                    <option value="Rexburg">Rexburg ID</option>
+                </select></label>
+            
+            <label class="top">Enter any special accomodations or comments<input type="textarea" name="addinfo"></label>
+        </fieldset>
+        <input class="submitButton" type="submit" value="Send Room Reservation">
+    </form>
+</div>
+</main>
+
+<footer>
+    <div class="content-box">
+            <p class='legal'>&copy; <span id='copyrightyear'></span>| Erik Machuca Saez | Texas | <a href='https:www.byui.edu/online'>BYUI Online Learning</a></p>
+            <p class='highlight'>Last Updated: <span id='lastupdated'></span></p>
+        </div>
+    </div>   
+</footer>
+
+</body>
+</html>
