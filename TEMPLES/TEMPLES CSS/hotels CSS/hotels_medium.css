@@ -1,0 +1,35 @@
+@media only screen and (min-width:32.5em) {
+    body {
+    background-color: #e9ded8;
+    }
+    nav {
+        display: flex;
+        max-width: 100%;
+    }
+    .content-box {
+        display: block;
+        width: 80%;
+        margin: 10px auto;
+        padding: 15px;
+        background-color: #eeecec;
+        color: black;
+    }
+
+#hotels img {
+    width: 400px;
+    height: 400px;
+}
+
+   
+    
+    .main-sec {
+        display: flex;
+        flex-direction: column;
+        max-width: 220px;
+        margin: auto;
+        align-items: center;
+        text-align: center;
+
+    }    
+};
+
