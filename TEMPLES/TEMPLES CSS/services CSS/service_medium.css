@@ -1,0 +1,56 @@
+@media only screen and (min-width:32.5em) {
+    body {
+    background-color: #e9ded8;
+    }
+    nav {
+        display: flex;
+        max-width: 75%;
+    }
+
+    .content-box {
+        display: block;
+        justify-self: center;
+        grid-template-columns: 1fr;
+        width: 80%;
+        margin: 10px auto;
+        padding: 15px;
+        background-color: #F5F5F5;
+        color: black;
+    }
+
+
+    .wwo {
+        text-align: center;
+    }
+    li {
+        list-style: none;
+        font-size: 1.1em;
+        line-height: 25px;
+        margin-left: 2px;
+    }
+
+    form {
+
+        background-color: #FFD61F;
+        padding: 10px;
+        text-align: center;
+        border-radius: 15px;
+        max-width: 400px;
+        margin: auto auto;
+        height: 100px;
+    }
+    
+    form .submitButton {
+        margin-top: 60px;
+        margin-bottom: 40px;
+        float: right;
+        margin-right: 140px;
+        border-radius: 20px;
+        background-color: #f5a81b;
+        color: white;
+        font-size: 1.1em;
+    }
+
+   
+};
+
