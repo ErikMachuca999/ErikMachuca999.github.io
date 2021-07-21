@@ -1,0 +1,56 @@
+[
+    {
+        "name":"Houston Texas Temple",
+        "phone":"281-376-6804",
+        "address1":"15725 Champion Forest Dr",
+        "city":"Spring",
+        "state":"TX",
+        "zip":77379,
+        "imageurl":"https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/houston-texas/2018/800x500/houston-temple04.jpg",
+        "phase": "PHASE 3: TEMPLE OPEN FOR LIVING ORDINANCES/LIMITED PROXY ORDINANCES",
+        "services":[
+            "Clothing rental available","No cafeteria available","No patron housing available","Distribution center nearby"
+        ]
+    },
+
+    {
+        "name":"Rexburg Idaho Temple",
+        "phone":"208-656-0880",
+        "address1":"750 S 2nd E",
+        "city":"Rexburg",
+        "state":"ID",
+        "zip":83440,
+        "imageurl":"https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/rexburg-idaho/800x500/rexburg-temple-775365-wallpaper.jpg",
+        "phase": "PHASE 3: TEMPLE OPEN FOR LIVING ORDINANCES/LIMITED PROXY ORDINANCES",
+        "services":[
+            "Clothing rental available","No cafeteria available","No patron housing available","Distribution center nearby"
+        ]
+    } ,   
+    {
+        "name":"Jordan River Utah Temple",
+        "phone":"801-254-3003",
+        "address1":"10200 S Temple Drive",
+        "city":"South Jordan",
+        "state":"UT",
+        "zip":84095,
+        "imageurl":"https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/jordan-river-utah/800x500/CWD_f5579d41-7344-4498-a589-4017ba5fcc91.jpg",
+        "phase": "PHASE 3: TEMPLE OPEN FOR LIVING ORDINANCES/LIMITED PROXY ORDINANCES",
+        "services":[
+            "Clothing rental available","No cafeteria available","No patron housing available","No distribution center nearby"
+        ]
+    },
+
+    {
+        "name":"Manhattan New York Temple",
+        "phone":"917-441-8220",
+        "address1":"125 Columbus Ave, Fourth Floor",
+        "city":"New York",
+        "state":"NY",
+        "zip":10023,
+        "imageurl":"https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/manhattan-new-york/800x500/manhattan-temple-lds-246601-wallpaper.jpg",
+        "phase": "PHASE 3: TEMPLE OPEN FOR LIVING ORDINANCES/LIMITED PROXY ORDINANCES",
+        "services":[
+            "Clothing rental available","No cafeteria available","No patron housing available","No distribution center nearby"
+        ]
+    } 
+]

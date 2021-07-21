@@ -1,0 +1,54 @@
+[
+    {
+        "name":"Comfort Inn & Suites Fm1960-Champions",
+        "phone":"281-444-5800",
+        "address1":"3555 Farm to Market 1960 Rd W",
+        "city":"Houston",
+        "state":"TX",
+        "zip":77068,
+        "imageurl":"https://pix10.agoda.net/hotelImages/495892/0/873aa5b2eba351284fe8a4dd1d96d7b9.jpg?s=1024x768",
+        "services":[
+            "Free Wi-Fi","Free breakfast","Accessible","Air-conditioned","None"
+        ]
+    },
+
+    {
+        "name":"SpringHill Suites by Marriott Rexburg",
+        "phone":"208-356-3003",
+        "address1":"1177 S Yellowstone Hwy",
+        "city":"Rexburg",
+        "state":"ID",
+        "zip":83440,
+        "imageurl":"https://cf.bstatic.com/xdata/images/hotel/max1024x768/3091344.jpg?k=2517a2caa0ec92b86b8af77a2b67c36350bc4ae328ef55cb9cd6b63b8a3ec580&o=&hp=1",
+        "services":[
+            "Free Wi-Fi","Free Parking","Accessible","Air-conditioned","None"
+        ]
+    } ,   
+    {
+        "name":"La Quinta Inn & Suites by Wyndham South Jordan",
+        "phone":"385-448-8000",
+        "address1":"511 S Jordan Pkwy",
+        "city":"South Jordan",
+        "state":"UT",
+        "zip":84095,
+        "imageurl":"https://www.wyndhamhotels.com/content/dam/property-images/en-us/lq/us/ut/south-jordan/53648/53648_Exterior_2.jpg?crop=5238:3492;*,*&downsize=720:*",
+        "services":[
+            "Free Wi-Fi","Free breakfast","Accessible","Air-conditioned","None"
+        ]
+    },
+
+    {
+        "name":"La Quinta Inn & Suites by Wyndham New York City Central Park",
+        "phone":"212-791-9451",
+        "address1":"31 W 71st St",
+        "city":"New York",
+        "state":"NY",
+        "zip":10023,
+        "imageurl":"https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/c3/89/ce/exterior.jpg?w=900&h=-1&s=1",
+        "services":[
+            "Free Wi-Fi","Free breakfast","Accessible","Air-conditioned","None"
+        ]
+    } 
+]
+
+
